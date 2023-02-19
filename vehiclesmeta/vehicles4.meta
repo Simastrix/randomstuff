@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfo__InitDataList>
+  <residentTxd>vehshare</residentTxd>
+  <residentAnims />
+  <InitDatas>
+    <Item>
+      <modelName>warWagon2</modelName>
+      <txdName>warWagon2</txdName>
+      <handlingId>warWagon2</handlingId>
+      <gameName>warWagon2</gameName>
+	    <vehicleClass>VC_WEAPONIZED_VEHICLE</vehicleClass>
+      <vehicleMakeName />
+      <animConvRoofDictName>null</animConvRoofDictName>
+      <animConvRoofName>null</animConvRoofName>
+      <ptfxAssetName>core</ptfxAssetName>
+      <statName>WAGON</statName>
+      <layout>LAYOUT_WARWAGON</layout>
+      <wheelFrontModelName>warwagon2_wheel_lf</wheelFrontModelName>
+      <wheelRearModelName>warwagon2_wheel_lr</wheelRearModelName>
+      <coverBoundOffsets>LARGECOACH_COVER_OFFSET_INFO</coverBoundOffsets>
+      <explosionInfo>EXPLOSION_INFO_DRAFT</explosionInfo>
+      <scenarioLayout />
+      <draftAnimalModelSetName>DRAFT_HORSE</draftAnimalModelSetName>
+      <vfxInfoName>VFXVEHICLEINFO_COACH_GENERIC</vfxInfoName>
+      <ladderLayout />
+      <particleEffectLayout />
+      <explosionLayout />
+      <AllowPretendOccupants value="true" />
+      <AllowJoyriding value="false" />
+      <AllowSundayDriving value="false" />
+      <AllowBodyColorMapping value="false" />
+      <amvIds content="int64_array"> 6542835307643954352</amvIds>
+      <wheelScale value="0.550000" />
+      <wheelScaleRear value="0.650000" />
+      <dirtLevelMin value="0.200000" />
+      <dirtLevelMax value="0.800000" />
+      <envEffScaleMin value="0.000000" />
+      <envEffScaleMax value="1.000000" />
+      <envEffScaleMin2 value="0.000000" />
+      <envEffScaleMax2 value="1.000000" />
+      <damageMapScale value="0.600000" />
+      <diffuseTint value="0x00FFFFFF" />
+      <steerWheelMult value="1.200000" />
+      <HDTextureDist value="5.000000" />
+      <vegPushUnderWheels value="true" />
+      <vegClipMinHeight value="0.95" />
+      <vegClipMaxHeight value="3.2" />
+      <vegClipScaleMinor value="0.9f" />
+      <vegClipScaleMajor value="0.5f" />
+      <vegPushStrength value="0.10000" />
+      <vegPushFromWheelsBBX value="true" />
+      <lodDistances content="float_array">
+        10.000000
+        25.000000
+        60.000000
+        120.000000
+        500.000000
+        500.000000
+      </lodDistances>
+      <identicalModelSpawnDistance value="0" />
+      <maxNumOfSameColor value="255" />
+      <defaultBodyHealth value="1000.000000" />
+      <pretendOccupantsScale value="1.000000" />
+      <visibleSpawnDistScale value="1.000000" />
+      <frequency value="10" />
+      <swankness>SWANKNESS_1</swankness>
+      <maxNum value="999" />
+      <flags>FLAG_BIG FLAG_AVOID_TURNS FLAG_EXTRAS_STRONG FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS FLAG_IS_TRACKED_FOR_TRAILS FLAG_HAS_TURRET_SEAT_ON_VEHICLE FLAG_CAN_BE_CARRIER FLAG_INTERIOR_OCCLUDE_WIND FLAG_VEHICLE_TURRET_IS_UNBREAKABLE FLAG_SUPPORTS_IK FLAG_USE_HIGHER_DOOR_TORQUE</flags>
+      <type>VEHICLE_TYPE_DRAFT</type>
+      <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+      <wheelType>VWT_SPORT</wheelType>
+	    <canopyExtras />
+      <trailers />
+      <drivers />
+      <extraIncludes />
+      <doorsWithCollisionWhenClosed />
+      <driveableDoors />
+      <doorJointInfo>
+        <Item>
+          <doorId>VEH_EXT_DOOR_DSIDE_F</doorId>
+        </Item>
+        <Item>
+          <doorId>VEH_EXT_DOOR_PSIDE_F</doorId>
+        </Item>
+      </doorJointInfo>
+      <requiredExtras />
+      <rewards />
+      <NmBraceOverrideSet>DraftVeh</NmBraceOverrideSet>
+      <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+      <buoyancySphereSizeScale value="1.000000" />
+      <ReinsOffset x="-0.640434" y="1.585059" z="-2.143126" />
+      <ReinsDefinitionIndex value="1" />
+      <initialDamageLevelMin value="0.000000" />
+      <initialDamageLevelMax value="0.850000" />
+      <CameraInfo>
+        <cameraDictionary>vehicles@wagons_cam</cameraDictionary>
+        <cameraName>FOLLOW_WAGON_CAMERA</cameraName>
+        <passengerCameraDictionary>vehicles@wagons_cam</passengerCameraDictionary>
+        <passengerCameraName>FOLLOW_WAGON_PASSENGER_CAMERA</passengerCameraName>
+        <aimCameraDictionary>vehicles@wagons_cam</aimCameraDictionary>
+        <aimCameraName>WORK_WAGON_AIM_CAMERA</aimCameraName>
+        <firstPersonCameraDictionary>vehicles@wagons_cam</firstPersonCameraDictionary>
+        <firstPersonCameraName>FIRST_PERSON_WORK_WAGON_CAMERA</firstPersonCameraName>
+        <bonnetCameraName />
+        <shouldForceOcclusionTest value="true" />
+        <shouldUseCinematicViewMode value="true" />
+        <shouldCameraIgnoreExiting value="false" />
+        <cinematicPartCameras />
+      </CameraInfo>
+    </Item>
+  </InitDatas>
+  <txdRelationships>
+	<Item>
+      <parent>vehshare</parent>
+      <child>warWagon2</child>
+    </Item>
+  </txdRelationships>
+</CVehicleModelInfo__InitDataList>

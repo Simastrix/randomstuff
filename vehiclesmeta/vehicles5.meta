@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfo__InitDataList>
+  <residentTxd>vehshare</residentTxd>
+  <residentAnims />
+  <InitDatas>
+    <Item>
+      <modelName>bountywagon01x</modelName>
+      <txdName>bountywagon01x</txdName>
+      <handlingId>bountywagon01x</handlingId>
+      <gameName>bountywagon01x</gameName>
+	  <vehicleClass>VC_CHUCKWAGON</vehicleClass>
+      <vehicleMakeName />
+      <animConvRoofDictName>null</animConvRoofDictName>
+      <animConvRoofName>null</animConvRoofName>
+      <ptfxAssetName>core</ptfxAssetName>
+      <statName>WAGON</statName>
+	  <ExpressionSetName>expr_set_Vehicle_chuckwagon002x</ExpressionSetName>
+      <wheelFrontModelName>mp005_Bountywagon01x_wheel_lf</wheelFrontModelName>
+      <wheelRearModelName>mp005_Bountywagon01x_wheel_lr</wheelRearModelName>
+      <layout>LAYOUT_BOUNTY_WAGON_LARGE</layout>
+      <coverBoundOffsets>GATLINGWAGON_COVER_OFFSET_INFO</coverBoundOffsets>
+      <explosionInfo>EXPLOSION_INFO_DRAFT</explosionInfo>
+      <scenarioLayout />
+      <vfxInfoName>VFXVEHICLEINFO_CART_GENERIC</vfxInfoName>
+      <ladderLayout />
+      <particleEffectLayout>VEHICLE_PARTICLE_EFFECT_WOOD_BREAK_DESTROY</particleEffectLayout>
+      <explosionLayout />
+      <AllowPretendOccupants value="true" />
+      <AllowJoyriding value="false" />
+      <AllowSundayDriving value="false" />
+      <AllowBodyColorMapping value="false" />
+      <amvIds content="int64_array"> 6541366888390224254</amvIds>
+      <wheelScale value="0.410000" />
+      <wheelScaleRear value="0.430000" />
+      <dirtLevelMin value="0.200000" />
+      <dirtLevelMax value="0.800000" />
+      <envEffScaleMin value="0.000000" />
+      <envEffScaleMax value="1.000000" />
+      <envEffScaleMin2 value="0.000000" />
+      <envEffScaleMax2 value="1.000000" />
+      <damageMapScale value="0.600000" />
+      <diffuseTint value="0x00FFFFFF" />
+      <steerWheelMult value="1.200000" />
+      <HDTextureDist value="5.000000" />
+	  <vegPushUnderWheels value="true" />
+	  <vegClipMinHeight value="0.8" />
+	  <vegClipMaxHeight value="3.8" />
+	  <vegClipScaleMinor value="0.85f" />
+	  <vegClipScaleMajor value="0.55f" />
+	  <vegPushStrength value="0.10000" />
+	  <vegPushFromWheelsBBX value="true" />
+      <lodDistances content="float_array">
+        10.000000
+        25.000000
+        60.000000
+        120.000000
+        500.000000
+        500.000000
+      </lodDistances>
+      <identicalModelSpawnDistance value="0" />
+      <maxNumOfSameColor value="255" />
+      <defaultBodyHealth value="1000.000000" />
+      <pretendOccupantsScale value="1.000000" />
+      <visibleSpawnDistScale value="1.000000" />
+      <frequency value="10" />
+      <swankness>SWANKNESS_1</swankness>
+      <maxNum value="999" />
+      <flags>FLAG_IS_BOUNTY_PRISON_WAGON FLAG_CONSIDERED_FOR_VEHICLE_ENTRY_WHEN_STOOD_ON FLAG_BIG FLAG_AVOID_TURNS FLAG_EXTRAS_STRONG FLAG_IS_TRACKED_FOR_TRAILS FLAG_CAN_BE_CARRIER FLAG_GEN_NAVMESH FLAG_PEDS_CAN_STAND_ON_TOP FLAG_CONSIDERED_FOR_VEHICLE_ENTRY_WHEN_STOOD_ON FLAG_HAS_NO_ROOF</flags>
+      <type>VEHICLE_TYPE_DRAFT</type>
+      <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+      <wheelType>VWT_SPORT</wheelType>
+	  <canopyExtras />
+	  <extraAdditionInfo />
+      <trailers />
+      <propsets />
+	  <lantern_propsets>
+		  <Item>
+			<propSetName>pg_teamster_chuckwagon002x_lightupgrade1</propSetName>
+			<requiredExtras />
+			<disabledExtras />
+			<attachedBone>VEH_BODYSHELL</attachedBone>          
+		  </Item>
+		  <Item>
+			<propSetName>pg_teamster_chuckwagon002x_lightupgrade2</propSetName>
+			<requiredExtras />
+			<disabledExtras />
+			<attachedBone>VEH_BODYSHELL</attachedBone>          
+		  </Item>
+		  <Item>
+			<propSetName>pg_teamster_chuckwagon002x_lightupgrade3</propSetName>
+			<requiredExtras />
+			<disabledExtras />
+			<attachedBone>VEH_BODYSHELL</attachedBone>          
+		  </Item>
+		  <Item>
+            <propSetName>pg_veh_chuckwagon002x_lanterns01</propSetName>
+            <requiredExtras />
+            <disabledExtras />
+            <attachedBone>VEH_BODYSHELL</attachedBone>
+          </Item>			  
+	  </lantern_propsets>
+	  <danglyPartProps>
+		  <Item>s_veh_lantern_lf</Item>
+		  <Item>s_veh_lantern_rf</Item>
+		  <Item>s_veh_lantern01_lf</Item>
+		  <Item>s_veh_lantern01_rf</Item>
+		  <Item>s_veh_lantern02_lf</Item>
+		  <Item>s_veh_lantern02_rf</Item>		  
+	  </danglyPartProps>		  
+      <drivers />
+      <extraIncludes />
+      <doorsWithCollisionWhenClosed />
+      <driveableDoors />
+      <requiredExtras />
+      <rewards />
+      <NmBraceOverrideSet>DraftVeh</NmBraceOverrideSet>
+      <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+      <buoyancySphereSizeScale value="1.000000" />
+      <ReinsOffset x="-0.649061" y="0.987097" z="-2.245813" />
+      <ReinsDefinitionIndex value="1" />
+      <initialDamageLevelMin value="0.000000" />
+      <initialDamageLevelMax value="0.850000" />
+      <CameraInfo>
+        <cameraDictionary>vehicles@wagons_cam</cameraDictionary>
+        <cameraName>FOLLOW_WAGON_CAMERA</cameraName>
+        <passengerCameraDictionary>vehicles@wagons_cam</passengerCameraDictionary>
+        <passengerCameraName>FOLLOW_WAGON_PASSENGER_CAMERA</passengerCameraName>
+        <aimCameraDictionary>vehicles@wagons_cam</aimCameraDictionary>
+        <aimCameraName>WAGON_AIM_CAMERA</aimCameraName>
+        <firstPersonCameraDictionary>vehicles@wagons_cam</firstPersonCameraDictionary>
+        <firstPersonCameraName>FIRST_PERSON_CHUCK_WAGON_CAMERA</firstPersonCameraName>
+        <bonnetCameraName />
+        <shouldUseCinematicViewMode value="true" />
+        <shouldCameraIgnoreExiting value="false" />
+        <cinematicPartCameras />
+      </CameraInfo>
+	  <vehicleStowMTHOffset x="0.0" y="-1.5" z="1.25" />
+    </Item>
+    <Item>
+      <modelName>wagonarmoured01x</modelName>
+      <txdName>wagonarmoured01x</txdName>
+      <handlingId>wagonarmoured01x</handlingId>
+      <gameName>wagonarmoured01x</gameName>
+	  <vehicleClass>VC_ARMORED_VEHICLE</vehicleClass>
+      <vehicleMakeName />
+      <animConvRoofDictName>null</animConvRoofDictName>
+      <animConvRoofName>null</animConvRoofName>
+      <ptfxAssetName>core</ptfxAssetName>
+      <statName>WAGON</statName>
+      <layout>LAYOUT_BOUNTY_WAGON</layout>
+      <wheelFrontModelName>wagonarmoured01x_wheel_lf</wheelFrontModelName>
+      <wheelRearModelName>wagonarmoured01x_wheel_lr</wheelRearModelName>
+      <coverBoundOffsets>SMALLWAGON_COVER_OFFSET_INFO</coverBoundOffsets>
+      <explosionInfo>EXPLOSION_INFO_DRAFT</explosionInfo>
+      <scenarioLayout />
+      <vfxInfoName>VFXVEHICLEINFO_CART_GENERIC</vfxInfoName>
+      <ladderLayout />
+      <particleEffectLayout>VEHICLE_PARTICLE_EFFECT_WOOD_BREAK_DESTROY</particleEffectLayout>
+      <explosionLayout />
+      <AllowPretendOccupants value="true" />
+      <AllowJoyriding value="false" />
+      <AllowSundayDriving value="false" />
+      <AllowBodyColorMapping value="false" />
+      <amvIds content="int64_array"> 6542759900903128797</amvIds>
+      <wheelScale value="0.317100" />
+      <wheelScaleRear value="0.319700" />
+      <dirtLevelMin value="0.200000" />
+      <dirtLevelMax value="0.800000" />
+      <envEffScaleMin value="0.000000" />
+      <envEffScaleMax value="1.000000" />
+      <envEffScaleMin2 value="0.000000" />
+      <envEffScaleMax2 value="1.000000" />
+      <damageMapScale value="0.600000" />
+      <diffuseTint value="0x00FFFFFF" />
+      <steerWheelMult value="1.200000" />
+      <HDTextureDist value="5.000000" />
+	  <vegPushUnderWheels value="true" />
+	  <vegClipMinHeight value="0.8" />
+	  <vegClipMaxHeight value="2.7" />
+	  <vegClipScaleMinor value="0.7f" />
+	  <vegClipScaleMajor value="0.506f" />
+	  <vegPushStrength value="0.10000" />
+	  <vegPushFromWheelsBBX value="true" />
+      <lodDistances content="float_array">
+        10.000000
+        25.000000
+        60.000000
+        120.000000
+        500.000000
+        500.000000
+      </lodDistances>
+      <identicalModelSpawnDistance value="0" />
+      <maxNumOfSameColor value="255" />
+      <defaultBodyHealth value="1000.000000" />
+      <pretendOccupantsScale value="1.000000" />
+      <visibleSpawnDistScale value="1.000000" />
+      <breakableVehicleLockConditions />
+      <frequency value="10" />
+      <swankness>SWANKNESS_1</swankness>
+      <maxNum value="999" />
+      <flags>FLAG_IS_BOUNTY_PRISON_WAGON FLAG_BIG FLAG_AVOID_TURNS FLAG_EXTRAS_STRONG FLAG_IS_TRACKED_FOR_TRAILS FLAG_CAN_BE_CARRIER FLAG_INTERIOR_OCCLUDE_WIND FLAG_HAS_NO_ROOF FLAG_CONSIDERED_FOR_VEHICLE_ENTRY_WHEN_STOOD_ON</flags>
+      <type>VEHICLE_TYPE_DRAFT</type>
+      <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+      <wheelType>VWT_SPORT</wheelType>
+	  <canopyExtras />
+      <trailers />
+	  <lantern_propsets>
+		  <Item>
+			<propSetName>pg_veh_wagonarmoured01x_lanterns01</propSetName>
+			<requiredExtras />
+			<disabledExtras />
+			<attachedBone>VEH_BODYSHELL</attachedBone>          
+		  </Item>		  
+	  </lantern_propsets>
+	  <danglyPartProps>
+		  <Item>s_veh_lantern_lf</Item>
+		  <Item>s_veh_lantern_rf</Item>
+		  <Item>s_veh_lantern01_lf</Item>
+		  <Item>s_veh_lantern01_rf</Item>
+		  <Item>s_veh_lantern02_lf</Item>
+		  <Item>s_veh_lantern02_rf</Item>		  
+	  </danglyPartProps>		  
+      <drivers />
+      <extraIncludes />
+      <doorsWithCollisionWhenClosed />
+      <driveableDoors />
+      <doorJointInfo>
+        <Item>
+          <doorId>VEH_EXT_DOOR_DSIDE_R</doorId>
+        </Item>
+        <Item>
+          <doorId>VEH_EXT_DOOR_PSIDE_R</doorId>
+        </Item>
+      </doorJointInfo>
+      <requiredExtras />
+      <rewards />
+      <NmBraceOverrideSet>DraftVeh</NmBraceOverrideSet>
+      <buoyancySphereOffset x="0.000000" y="0.000000" z="0.000000" />
+      <buoyancySphereSizeScale value="1.000000" />
+      <ReinsOffset x="-0.691393" y="1.315195" z="-1.524143" />
+      <ReinsDefinitionIndex value="1" />
+      <initialDamageLevelMin value="0.000000" />
+      <initialDamageLevelMax value="0.850000" />
+	  <entryExitForceMult value="1.3" />
+      <CameraInfo>
+        <cameraDictionary>vehicles@wagons_cam</cameraDictionary>
+        <cameraName>FOLLOW_WAGON_CAMERA</cameraName>
+        <passengerCameraDictionary>vehicles@wagons_cam</passengerCameraDictionary>
+        <passengerCameraName>FOLLOW_WAGON_PASSENGER_CAMERA</passengerCameraName>
+        <aimCameraDictionary>vehicles@wagons_cam</aimCameraDictionary>
+        <aimCameraName>WAGON_AIM_CAMERA</aimCameraName>
+        <firstPersonCameraDictionary>vehicles@wagons_cam</firstPersonCameraDictionary>
+        <firstPersonCameraName>FIRST_PERSON_DRAFT_VEHICLE_CAMERA</firstPersonCameraName>
+        <bonnetCameraName />
+        <shouldUseCinematicViewMode value="true" />
+        <shouldCameraIgnoreExiting value="false" />
+        <cinematicPartCameras />
+      </CameraInfo>
+	  <vehicleStowMTHOffset x="0.0" y="-0.5" z="1.35" />
+    </Item>
+    <Item>
+      <modelName>Huntercart01</modelName>
+      <txdName>Huntercart01</txdName>
+      <handlingId>Huntercart01</handlingId>
+      <gameName>Huntercart01</gameName>
+	  <vehicleClass>VC_CART</vehicleClass>
+      <vehicleMakeName />
+      <animConvRoofDictName>null</animConvRoofDictName>
+      <animConvRoofName>null</animConvRoofName>
+      <ptfxAssetName>core</ptfxAssetName>
+      <statName>CART</statName>
+      <ExpressionSetName>expr_set_Vehicle_cart06</ExpressionSetName>
+      <wheelFrontModelName>mp005_Huntercart01_wheel_lf</wheelFrontModelName>
+      <wheelRearModelName>mp005_Huntercart01_wheel_lr</wheelRearModelName>
+      <layout>LAYOUT_CART_LARGE_TWO_SEATER_STANDARD</layout>
+      <coverBoundOffsets>STANDARD_COVER_OFFSET_INFO</coverBoundOffsets>
+      <explosionInfo>EXPLOSION_INFO_DRAFT</explosionInfo>
+      <scenarioLayout />
+      <vfxInfoName>VFXVEHICLEINFO_CART_GENERIC</vfxInfoName>
+      <ladderLayout />
+      <particleEffectLayout>VEHICLE_PARTICLE_EFFECT_WOOD_BREAK_DESTROY</particleEffectLayout>
+      <explosionLayout />
+      <AllowPretendOccupants value="true" />
+      <AllowJoyriding value="false" />
+      <AllowSundayDriving value="false" />
+      <AllowBodyColorMapping value="false" />
+      <amvIds content="int64_array"> 6541357448052081728</amvIds>
+      <wheelScale value="0.317100" />
+      <wheelScaleRear value="0.319700" />
+      <dirtLevelMin value="0.200000" />
+      <dirtLevelMax value="0.800000" />
+      <envEffScaleMin value="0.000000" />
+      <envEffScaleMax value="1.000000" />
+      <envEffScaleMin2 value="0.000000" />
+      <envEffScaleMax2 value="1.000000" />
+      <damageMapScale value="0.600000" />
+      <diffuseTint value="0x00FFFFFF" />
+      <steerWheelMult value="1.200000" />
+      <HDTextureDist value="5.000000" />
+	  <vegPushUnderWheels value="true" />
+	  <vegClipMinHeight value="0.7" />
+	  <vegClipMaxHeight value="1.7" />
+	  <vegClipScaleMinor value="0.85f" />
+	  <vegClipScaleMajor value="0.5f" />
+	  <vegPushStrength value="0.10000" />
+	  <vegPushFromWheelsBBX value="true" />
+      <lodDistances content="float_array">
+        10.000000
+        25.000000
+        60.000000
+        120.000000
+        500.000000
+        500.000000
+      </lodDistances>
+      <identicalModelSpawnDistance value="0" />
+      <maxNumOfSameColor value="255" />
+      <defaultBodyHealth value="1000.000000" />
+      <pretendOccupantsScale value="1.000000" />
+      <visibleSpawnDistScale value="1.000000" />
+      <frequency value="10" />
+      <swankness>SWANKNESS_1</swankness>
+      <maxNum value="999" />
+      <flags>FLAG_IS_HUNTING_VEHICLE FLAG_AVOID_TURNS FLAG_EXTRAS_STRONG FLAG_IS_TRACKED_FOR_TRAILS FLAG_CAN_BE_CARRIER FLAG_PEDS_CAN_STAND_ON_TOP FLAG_CONSIDERED_FOR_VEHICLE_ENTRY_WHEN_STOOD_ON FLAG_HAS_NO_ROOF</flags>
+      <type>VEHICLE_TYPE_DRAFT</type>
+      <plateType>VPT_FRONT_AND_BACK_PLATES</plateType>
+      <wheelType>VWT_SPORT</wheelType>
+	  <canopyExtras />
+      <trailers />
+      <propsets />
+        <!-- <Item> -->
+          <!-- <propSetName>pg_teamster_cart06_breakables</propSetName> -->
+          <!-- <requiredExtras /> -->
+          <!-- <disabledExtras /> -->
+		  <!-- <missionOnly value="true" /> -->
+          <!-- <attachedBone>VEH_BODYSHELL</attachedBone> -->
+        <!-- </Item>	 -->
+        <!-- <Item> -->
+          <!-- <propSetName>pg_teamster_cart06_gen</propSetName> -->
+          <!-- <requiredExtras /> -->
+          <!-- <disabledExtras /> -->
+		  <!-- <missionOnly value="true" /> -->
+          <!-- <attachedBone>VEH_BODYSHELL</attachedBone> -->
+        <!-- </Item>	 -->
+        <!-- <Item> -->
+          <!-- <propSetName>pg_teamster_cart06_perishables</propSetName> -->
+          <!-- <requiredExtras /> -->
+          <!-- <disabledExtras /> -->
+		  <!-- <missionOnly value="true" /> -->
+          <!-- <attachedBone>VEH_BODYSHELL</attachedBone> -->
+        <!-- </Item>	 -->
+        <!-- <Item> -->
+          <!-- <propSetName>pg_teamster_cart06_tnt</propSetName> -->
+          <!-- <requiredExtras /> -->
+          <!-- <disabledExtras /> -->
+		  <!-- <missionOnly value="true" /> -->
+          <!-- <attachedBone>VEH_BODYSHELL</attachedBone> -->
+        <!-- </Item>			 -->
+        <!-- <Item> -->
+          <!-- <propSetName>pg_veh_cart06_1</propSetName> -->
+          <!-- <requiredExtras /> -->
+          <!-- <disabledExtras /> -->
+          <!-- <attachedBone>VEH_BODYSHELL</attachedBone> -->
+        <!-- </Item> -->
+        <!-- <Item> -->
+          <!-- <propSetName>pg_veh_cart06_2</propSetName> -->
+          <!-- <requiredExtras /> -->
+          <!-- <disabledExtras /> -->
+          <!-- <attachedBone>VEH_BODYSHELL</attachedBone> -->
+        <!-- </Item>		 -->
+      <!-- </propsets>	   -->
+	  <lantern_propsets>
+		  <!-- <Item> -->
+			<!-- <propSetName>pg_re_deadbodies01x_lights</propSetName> -->
+			<!-- <requiredExtras /> -->
+			<!-- <disabledExtras /> -->
+			<!-- <attachedBone>VEH_BODYSHELL</attachedBone>           -->
+		  <!-- </Item>	   -->
+		  <Item>
+			<propSetName>pg_teamster_cart06_lightupgrade1</propSetName>
+			<requiredExtras />
+			<disabledExtras />
+			<attachedBone>VEH_BODYSHELL</attachedBone>          
+		  </Item>
+		  <Item>
+			<propSetName>pg_teamster_cart06_lightupgrade2</propSetName>
+			<requiredExtras />
+			<disabledExtras />
+			<attachedBone>VEH_BODYSHELL</attachedBone>          
+		  </Item>
+		  <Item>
+			<propSetName>pg_teamster_cart06_lightupgrade3</propSetName>
+			<requiredExtras />
+			<disabledExtras />
+			<attachedBone>VEH_BODYSHELL</attachedBone>          
+		  </Item>
+		  <Item>
+			<propSetName>pg_veh_cart06_lanterns01</propSetName>
+			<requiredExtras />
+			<disabledExtras />
+			<attachedBone>VEH_BODYSHELL</attachedBone>          
+		  </Item>			  
+	  </lantern_propsets>
+	  <danglyPartProps>
+		  <Item>s_veh_lantern_lf</Item>
+		  <Item>s_veh_lantern_rf</Item>
+		  <Item>s_veh_lantern01_lf</Item>
+		  <Item>s_veh_lantern01_rf</Item>
+		  <Item>s_veh_lantern02_lf</Item>
+		  <Item>s_veh_lantern02_rf</Item>		  
+	  </danglyPartProps>		  
+      <anim_propsets>
+        <Item>
+          <propSetName>pg_mp005_huntingWagonTarp01</propSetName>
+          <attachedBone>VEH_BODYSHELL</attachedBone>
+        </Item>
+      </anim_propsets>
+      <animatedProps>
+        <Item>
+          <propModelName>mp005_p_huntingwagontarp01</propModelName>
+          <dofId>Tarp_Growth</dofId>
+          <initialAnimValue value="0.000000" />
+          <minAnimValue value="0.000000" />
+          <maxAnimValue value="1.000000" />
+          <interpCurve>TYPE_QUADRATIC_OUT</interpCurve>
+          <interpSpringConstant value="15.000000" />
+          <interpSpringRatio value="1.000000" />
+          <minBlendAgeValue value="0.200000" />
+          <flags>UsesAnimPropBlendAge</flags>
+        </Item>
+      </animatedProps>
+      <drivers />
+      <extraIncludes />
+      <doorsWithCollisionWhenClosed />
+      <driveableDoors />
+      <requiredExtras />
+      <rewards />
+      <NmBraceOverrideSet>DraftVeh</NmBraceOverrideSet>
+      <buoyancySphereOffset x="0.000000" y="-0.200000" z="0.300000" />
+      <buoyancySphereSizeScale value="0.800000" />
+      <ReinsOffset x="-0.609698" y="-1.370914" z="1.438678" />
+      <ReinsDefinitionIndex value="1" />
+      <initialDamageLevelMin value="0.000000" />
+      <initialDamageLevelMax value="0.850000" />
+	  <entryExitForceMult value="0.1" />
+      <CameraInfo>
+        <cameraDictionary>vehicles@wagons_cam</cameraDictionary>
+        <cameraName>FOLLOW_WAGON_CAMERA</cameraName>
+        <passengerCameraDictionary>vehicles@wagons_cam</passengerCameraDictionary>
+        <passengerCameraName>FOLLOW_WAGON_PASSENGER_CAMERA</passengerCameraName>
+        <aimCameraDictionary>vehicles@wagons_cam</aimCameraDictionary>
+        <aimCameraName>WAGON_AIM_CAMERA</aimCameraName>
+        <firstPersonCameraDictionary>vehicles@wagons_cam</firstPersonCameraDictionary>
+        <firstPersonCameraName>FIRST_PERSON_DRAFT_VEHICLE_CAMERA</firstPersonCameraName>
+        <bonnetCameraName />
+        <shouldUseCinematicViewMode value="true" />
+        <shouldCameraIgnoreExiting value="false" />
+        <cinematicPartCameras />
+      </CameraInfo>
+    </Item>
+  </InitDatas>
+  <txdRelationships>
+	<Item>
+      <parent>vehshare</parent>
+      <child>wagonarmoured01x</child>
+    </Item>
+	<Item>
+      <parent>vehshare</parent>
+      <child>Huntercart01</child>
+    </Item>
+	<Item>
+      <parent>vehshare</parent>
+      <child>bountywagon01x</child>
+    </Item>
+  </txdRelationships>
+</CVehicleModelInfo__InitDataList>

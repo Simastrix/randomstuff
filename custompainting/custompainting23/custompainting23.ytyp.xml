@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CMapTypes>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="60" />
+      <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="-0.5314437" y="-0.05611231" z="-0.6488912" />
+      <bbMax x="0.5266618" y="0.05521581" z="0.2134135" />
+      <bsCentre x="-0.002390951" y="-0.00044825114" z="-0.21773885" />
+      <bsRadius value="0.6847537" />
+      <hdTextureDist value="40" />
+      <name>custompainting23</name>
+      <physicsDictionary>custompainting23</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>custompainting23</assetName>
+    </Item>
+  </archetypes>
+  <name>custompainting23</name>
+</CMapTypes>
